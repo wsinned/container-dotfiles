@@ -2,7 +2,7 @@
 
 echo "Expecting dotfiles in $DOTFILES_REPOSITORY"
 
-# Create symlinks for bash configuration
+mkdir -p $HOME/.config
 ln -sf "$DOTFILES_REPOSITORY/.config/fish" "$HOME/.config/fish"
 
 # Create symlinks for bash configuration
