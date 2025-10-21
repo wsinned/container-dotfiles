@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Create symlinks for bash configuration
-ln -sf "$DOTFILES_REPOSITORY/.config/fish" "$HOME/.config/fish"
+ln -sf ".config/fish" "$HOME/.config/fish"
 
 # Create symlinks for bash configuration
-ln -sf "$DOTFILES_REPOSITORY/.config/atuin" "$HOME/.config/atuin"
+ln -sf ".config/atuin" "$HOME/.config/atuin"
 
 # Create symlinks for bash configuration
-ln -sf "$DOTFILES_REPOSITORY/.config/starship.toml" "$HOME/.config/staship.toml"
+ln -sf "/.config/starship.toml" "$HOME/.config/staship.toml"
 
 
 echo "Dotfiles installation complete!"
